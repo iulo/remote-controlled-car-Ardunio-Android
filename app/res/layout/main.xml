@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#cdcdcd"
+    android:orientation="horizontal" >
+
+    <Button 
+        android:id="@+id/btn_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:text="@string/left"
+        />
+    
+    <LinearLayout 
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">        
+        <Button 
+            android:id="@+id/btn_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/up"
+            />  
+            <TextView 
+                android:id="@+id/tv_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:text=""
+                />      
+        <Button 
+            android:id="@+id/btn_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/down"
+            />  
+    </LinearLayout>    
+    
+    <Button 
+        android:id="@+id/btn_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:text="@string/right"
+        />
+    
+</LinearLayout>
