@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小车控制</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="left">左转</string>
+    <string name="down">后退</string>
+    <string name="up">前进</string>
+    <string name="right">右转</string>
+</resources>
